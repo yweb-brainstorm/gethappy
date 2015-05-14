@@ -1,5 +1,5 @@
 body {
-	background-color: #2570d9;
+	background-color: #257099;
 }
 
 .main-nav {
@@ -25,11 +25,7 @@ li {
 	height: 150px;
 	width: 200px;
 }
-.user-display {
-	border: 2px solid;
-	height: 200px;
-}
-.user-display 
+#user-display
 .user-pic {
 	height: 100%;
 	width: 190px;
@@ -42,11 +38,18 @@ h1 {
 }
 
 h2 {
-	text-align: right;
-	float: right;
-	color: red;
+	text-align: center;
+	color: #000066;
 }
 .activities {
+	text-align: center;
+	background-color: grey;
 	border: 2px solid;
 	height: 500px;
+	cursor: pointer;
+}
+
+.activities:hover {
+	color: blue;
+	opacity: 0.4;
 }
