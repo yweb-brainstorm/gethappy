@@ -1,0 +1,23 @@
+body{
+	margin: 0;
+}
+
+ul li{
+	list-style-type: none;
+}
+
+.mainContent{
+	padding: 10px 0px;
+	background-color: gray;
+}
+
+.manageBox, .badgesBox{
+	background-color: blue;
+	padding: 10px 20px;
+}
+.personalBox, .positiveBox{
+	background-color: gray;
+	padding: 10px 20px;
+}
+
+
