@@ -1,0 +1,22 @@
+body{
+	background-color: blue;
+}
+
+h1{
+	font-size: 100px;
+}
+
+ .goals, .badges{
+	display: inline-block;
+	
+
+}
+.first, .second, .third, .fourth{
+	float: left;
+	background-color: gray;
+	margin: 0 34px;
+	padding: 10px;
+}
+
+
+
