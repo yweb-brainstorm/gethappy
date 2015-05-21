@@ -1,0 +1,29 @@
+body {
+	height: 1350px;
+}
+.user-info{
+	background-color: red;
+	display: inline-block;
+	width: 50%;
+	float: left;
+	border: 3px solid black;
+}
+/*.activity-log {
+	background-color: blue;
+	display: inline-block;
+	width: 50%;
+	float: right;
+	border: 3px solid black;*/
+}
+.user-pic {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	height: 50px;
+}
+.activity-log {
+  box-sizing: border-box;
+  width: 200px;
+  padding: 20px;
+  border: 1px solid #DDD;
+}

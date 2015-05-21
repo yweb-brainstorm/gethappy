@@ -1,0 +1,184 @@
+.act {
+	overflow: hidden;
+}
+
+.activities {
+	text-align: center;
+	background-color: grey;
+	border: 2px solid;
+	height: 500px;
+	padding: 0px;
+	cursor: pointer;
+}
+
+.activities:hover {
+	color: blue;
+	opacity: 0.4;
+}
+
+.activity-log {
+  box-sizing: border-box;
+  width: 200px;
+  padding: 20px;
+  border: 1px solid #DDD;
+}
+
+body{
+	margin: 0;
+	background-color: #527BE3; /* #257099 */
+	height: 1350px;
+}
+
+.badges img{
+	width: 180px;
+	height: auto;
+	padding: 10px;
+	float: left;
+}
+
+div{
+	text-align: center;
+}
+
+.first, .second, .third, .fourth{
+	float: left;
+	background-color: gray;
+	margin: 10px 57px;
+	padding: 10px;
+	width: 200px;
+}
+
+.goals, .badges{
+	display: inline-block;
+	
+}
+
+h1{
+	font-size: 100px;
+	text-align: center;
+	margin: 0px;
+	width: 200px;
+	float: right;
+}
+
+h2{
+	text-align: center;
+	color: #000066;
+}
+
+h3{
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+}
+
+.logoImg {
+	height: 150px;
+	width: 200px;
+}
+
+.mainContent{
+	padding: 10px 0px;
+	background-color: gray;
+}
+
+.main-nav {
+  background: #fff;
+  height: 150px;
+  z-index: 150;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  top: 0;
+}
+
+.manageBox, .badgesBox{
+	background-color: blue;
+	padding: 10px 20px;
+}
+
+.newActivity {
+  background-color: blue;
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  height: 50px;
+  padding: 7px 20px 9px;
+  margin: .5em .5em .5em 0;
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  -webkit-transition: 0.1s linear;
+  -moz-transition: 0.1s linear;
+  -ms-transition: 0.1s linear;
+  -o-transition: 0.1s linear;
+  transition: 0.1s linear;
+  border-radius: 2px;
+  box-shadow: inset rgba(255,255,255,0.3) 1px 1px 0;
+  overflow: hidden;  
+}
+
+.personalBox, .positiveBox{
+	background-color: gray;
+	padding: 10px 20px;
+}
+
+ul li{
+	list-style-type: none;
+}
+
+li{
+	/* text-align: center; /* From Dawwn */
+	display: inline-block;
+	padding: 10px;
+	float: right;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul.activities {
+	list-style: none;
+	float: none;
+	display: block;
+	padding: 0px;
+}
+
+ul.activities li {
+	display: list-item;
+	width: 100%;
+}
+
+#user-display
+.user-pic {
+	height: 100%;
+	width: 190px;
+}
+
+.user-info{
+	background-color: red;
+	display: inline-block;
+	width: 50%;
+	float: left;
+	border: 3px solid black;
+}
+
+.user-pic {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	height: 50px;
+}
+
+
+
