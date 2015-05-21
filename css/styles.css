@@ -1,8 +1,4 @@
 body{
-	background-color: blue;
-}
-
-body{
 	margin: 0;
 	background-color: #527BE3;
 }
@@ -12,14 +8,6 @@ body{
 	height: auto;
 	padding: 10px;
 	float: left;
-}
-
-.badgesBox{
-	background-color: blue;
-}
-
-.badgesBox{
-	background-color: blue;
 }
 
 div{
@@ -54,44 +42,13 @@ h1{
 }
 
 .mainContent{
-	background-color: gray;
-}
-
-.mainContent{
 	padding: 10px 0px;
 	background-color: gray;
-}
-
-.mainContent{
-	background-color: gray;
-}
-
-.manageBox{
-	background-color: blue;
 }
 
 .manageBox, .badgesBox{
 	background-color: blue;
 	padding: 10px 20px;
-}
-
-.manageBox{
-	background-color: blue;
-}
-
-.personalBox{
-	background-color: gray;
-}
-
-.personalBox{
-	background-color: gray;
-}
-.postiveBox{
-	background-color: gray;
-}
-
-.postiveBox{
-	background-color: gray;
 }
 
 .personalBox, .positiveBox{
