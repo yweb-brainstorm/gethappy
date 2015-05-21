@@ -6,16 +6,27 @@ h1{
 	font-size: 100px;
 }
 
- .goals, .badges{
+.goals, .badges{
 	display: inline-block;
 	
-
 }
+
+
+.badges img{
+	width: 180px;
+	height: auto;
+	padding: 10px;
+	float: left;
+}
+
+
+
 .first, .second, .third, .fourth{
 	float: left;
 	background-color: gray;
-	margin: 0 34px;
+	margin: 10px 57px;
 	padding: 10px;
+	width: 200px;
 }
 
 
