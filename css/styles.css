@@ -2,15 +2,10 @@ body{
 	background-color: blue;
 }
 
-h1{
-	font-size: 100px;
+body{
+	margin: 0;
+	background-color: #527BE3;
 }
-
-.goals, .badges{
-	display: inline-block;
-	
-}
-
 
 .badges img{
 	width: 180px;
@@ -19,7 +14,17 @@ h1{
 	float: left;
 }
 
+.badgesBox{
+	background-color: blue;
+}
 
+.badgesBox{
+	background-color: blue;
+}
+
+div{
+	text-align: center;
+}
 
 .first, .second, .third, .fourth{
 	float: left;
@@ -29,5 +34,80 @@ h1{
 	width: 200px;
 }
 
+.goals, .badges{
+	display: inline-block;
+	
+}
+
+h1{
+	font-size: 100px;
+}
+
+h2{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+h1{
+	text-align: center;
+}
+
+.mainContent{
+	background-color: gray;
+}
+
+.mainContent{
+	padding: 10px 0px;
+	background-color: gray;
+}
+
+.mainContent{
+	background-color: gray;
+}
+
+.manageBox{
+	background-color: blue;
+}
+
+.manageBox, .badgesBox{
+	background-color: blue;
+	padding: 10px 20px;
+}
+
+.manageBox{
+	background-color: blue;
+}
+
+.personalBox{
+	background-color: gray;
+}
+
+.personalBox{
+	background-color: gray;
+}
+.postiveBox{
+	background-color: gray;
+}
+
+.postiveBox{
+	background-color: gray;
+}
+
+.personalBox, .positiveBox{
+	background-color: gray;
+	padding: 10px 20px;
+}
+
+ul li{
+	list-style-type: none;
+}
+
+li{
+	text-align: center;
+}
+ul{
+	list-style-type: none;
+}
 
 
