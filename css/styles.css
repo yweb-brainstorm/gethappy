@@ -30,8 +30,9 @@ body{
 }
 
 .badges img{
+	size: 200px;
 	width: 180px;
-	height: auto;
+	height: 200px;
 	padding: 10px;
 	float: left;
 }
