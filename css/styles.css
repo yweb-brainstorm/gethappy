@@ -180,5 +180,8 @@ ul.activities li {
 	height: 50px;
 }
 
-
+.input-field {
+	border: 2px solid black;
+	height: inherit;
+}
 
