@@ -54,11 +54,11 @@ div{
 }
 
 h1{
-	font-size: 100px;
+	font-size: 32px;
 	text-align: center;
 	margin: 0px;
 	width: 200px;
-	float: right;
+	float: center;
 }
 
 h2{
@@ -183,7 +183,7 @@ ul.activities li {
 
 .input-field {
 	border: 2px solid black;
-	height: inherit;
+	height: 75px;
 }
 .act {
 	width: 100%;
