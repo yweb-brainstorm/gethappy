@@ -219,5 +219,23 @@ div.input-inline {
 	display: block;
 	position: center;
 }
+.progressbar {
+  background-color: #eee;
+  border: 1px solid #999;
+  border-radius: 3px;
+  box-shadow: 0 2px 6px -2px #aaa inset;
+  height: 18px;
+  overflow: hidden;
+  position: relative;
+  width: 600px;
+}
 
+.progressbar .progress {
+  background: #4cd864;
+  -background: linear-gradient(#00ccff, #00aaff); /* Blue */
+  -background: linear-gradient(#4cd864, #54d06a); /* Green */
+  height: 100%;
+  position: absolute;
+  width: 20%;
+}
 /* End of css of Byron's Section */
