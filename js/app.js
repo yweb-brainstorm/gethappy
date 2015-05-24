@@ -13,9 +13,9 @@ $(document).ready(function(){
    });*/
 
 
-//   $('.activities').on('click', function(){
-//     $('ul.activities').prepend('<li class="stat-bar">50%</li>');
-//   });
+   $('.activities').on('click', function(){
+     $('div.activities').prepend('<div class="stat-1 stat-bar"</div>');
+   });
 $("#set").click(function() {
   var value = $("#value").val();
   console.log(value);

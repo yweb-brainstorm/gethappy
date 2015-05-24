@@ -157,7 +157,7 @@ ul.activities {
 	padding: 0px;
 }
 
-ul.activities li {
+div.activities stat-1 stat-bar {
 	display: list-item;
 	width: 100%;
 }
