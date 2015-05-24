@@ -13,7 +13,7 @@ $(document).ready(function(){
    });*/
 
 
-  $('.activities').on('click', function(){
-    $('ul.activities').prepend('<li class="newActivity">new item</li>');
-  });
-});
+//   $('.activities').on('click', function(){
+//     $('ul.activities').prepend('<li class="stat-bar">50%</li>');
+//   });
+// });
