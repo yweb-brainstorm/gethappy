@@ -13,9 +13,9 @@ $(document).ready(function(){
    });*/
 
 
-   $('.activities').on('click', function(){
-     $('div.activities').prepend('<div class="stat-1 stat-bar"</div>');
-   });
+   // $('.activities').on('click', function(){
+   //   $('div.activities').prepend('<div class="stat-1 stat-bar"</div>');
+   // });
 $("#set").click(function() {
   var value = $("#value").val();
   console.log(value);
@@ -49,4 +49,13 @@ $("#button").click(function() {
     "width": "100%"
   }, 6000, "linear");
 });
+function doGet(e){
+  var vals=[];
+  vals.push(new Date());
+  for(var i in e.parameter){
+    vals.push(e.parameter[i]);
+  }
+  SpreadsheetApp.openById("0Ao02g19G1-G-dElQQW92ekZWa0lGRGREYUpHRWQwTVE").appendRow(vals);
+  return ContentService.createTextOutput("added");
+};
 });
