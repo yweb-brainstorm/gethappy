@@ -14,23 +14,20 @@ $(document).ready(function(){
 
 
    // $('.activities').on('click', function(){
-   //   $('div.activities').prepend('<div class="stat-1 stat-bar"</div>');
+   //    var activityBar = $('<div class="stat-1 stat-bar"</div>');
+   //    activityBar.append()
+   //    $('div.activities').prepend(activityBar);
    // });
+
 $("#set").click(function() {
   var value = $("#value").val();
   console.log(value);
   var $progressbar = $("#progressbar > div");
-  $progressbar.animate({
-    "width": value + "%"
-  }, 2000, "linear", function() {
+  $progressbar.animate({ "width": value+"%" }, 500, "linear", function() {
     if (value == 100) {
       var $color = $progressbar.css("background-color");
-      $progressbar.animate({
-        "background-color": "#33f153"
-      }, 600, function() {
-        $progressbar.animate({
-          "background-color": $color
-        });
+      $progressbar.animate({ "background-color": "#33f153"}, 6000, function() {
+        $progressbar.animate({ "background-color": $color});
       });
     }
   });
@@ -44,18 +41,17 @@ $("#reset").click(function() {
 $("#button").click(function() {
   var $progressbar = $("#progressbar > div");
   $progressbar
-  .css("width", 0)
-  .animate({
-    "width": "100%"
-  }, 6000, "linear");
+    .css("width", 0)
+    .animate({ "width": "100%" }, 6000, "ease-in-out");
 });
-function doGet(e){
-  var vals=[];
-  vals.push(new Date());
-  for(var i in e.parameter){
-    vals.push(e.parameter[i]);
-  }
-  SpreadsheetApp.openById("0Ao02g19G1-G-dElQQW92ekZWa0lGRGREYUpHRWQwTVE").appendRow(vals);
-  return ContentService.createTextOutput("added");
-};
+
+  function doGet(e){
+    var vals=[];
+    vals.push(new Date());
+    for(var i in e.parameter){
+      vals.push(e.parameter[i]);
+    }
+    SpreadsheetApp.openById("0Ao02g19G1-G-dElQQW92ekZWa0lGRGREYUpHRWQwTVE").appendRow(vals);
+    return ContentService.createTextOutput("added");
+  };
 });
